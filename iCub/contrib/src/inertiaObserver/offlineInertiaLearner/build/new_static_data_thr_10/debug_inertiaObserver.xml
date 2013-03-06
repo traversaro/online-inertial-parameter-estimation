@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<portscope rows="2" columns="3">
+<plot gridx="0" gridy="0" title="Fx" minval="-100" maxval="100">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "0" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "0" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "0" color = "Green" title="CAD" /> 
+</plot>
+<plot gridx="1" gridy="0" title="Fy" minval="-100" maxval="100">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "1" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "1" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "1" color = "Green" title="CAD" /> 
+</plot>
+<plot gridx="2" gridy="0" title="Fz" minval="-100" maxval="100">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "2" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "2" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "2" color = "Green" title="CAD" /> 
+</plot>
+<plot gridx="0" gridy="1" title="tx" minval="-5" maxval="5">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "3" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "3" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "3" color = "Green" title="CAD" /> 
+</plot>
+<plot gridx="1" gridy="1" title="ty" minval="-5" maxval="5">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "4" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "4" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "4" color = "Green" title="CAD" /> 
+</plot>
+<plot gridx="2" gridy="1" title="tz" minval="-5" maxval="5">
+<graph remote="/inertiaObserver/right_arm/FT_measured:o" index = "5" color = "Yellow" title="Measured" /> 
+<graph remote="/inertiaObserver/right_arm/FT_RLS_estimated:o" index = "5" color = "Red" title="RLS" /> 
+<graph remote="/inertiaObserver/right_arm/FT_CAD_estimated:o" index = "5" color = "Green" title="CAD" /> 
+</plot>
+</portscope>

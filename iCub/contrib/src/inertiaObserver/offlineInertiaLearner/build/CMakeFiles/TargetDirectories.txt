@@ -1,0 +1,1 @@
+/home/pegua/src/iCub/contrib/src/inertiaObserver/offlineInertiaLearner/build/CMakeFiles/offlineInertiaLearner.dir
